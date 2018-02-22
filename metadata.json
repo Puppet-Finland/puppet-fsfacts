@@ -1,0 +1,10 @@
+{
+  "name": "puppetfinland-fsfacts",
+  "version": "1.0.0",
+  "author": "Puppet-Finland team",
+  "license": "BSD license",
+  "summary": "Facts related to filesystems",
+  "source": "https://github.com/Puppet-Finland/puppet-fsfacts.git",
+  "project_page": "https://github.com/Puppet-Finland/puppet-fsfacts",
+  "dependencies": [ ]
+}
