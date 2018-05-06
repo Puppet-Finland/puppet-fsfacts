@@ -1,6 +1,6 @@
 {
   "name": "puppetfinland-fsfacts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Puppet-Finland team",
   "summary": "Facts related to filesystems",
   "license": "BSD-2-Clause",
