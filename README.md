@@ -14,14 +14,5 @@ The data is gathered from $facts['mountpoints']. The facts are primarily
 intended to help data visualization, for example in Puppetboard. The 
 *has_bootfs* fact can be used to drive logic in Puppet code also.
 
-With a bit more trickery the above set of facts could be created automaticlaly 
+With a bit more trickery the above set of facts could be created automatically
 for each mountpoint.
-
-# Dependencies
-
-None
-
-# Operating system support
-
-The facts should work any operating system, but they will only produce useful 
-data on *NIX-like operating systems.
