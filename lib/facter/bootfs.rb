@@ -9,7 +9,7 @@ Facter.add(:has_bootfs) do
 end
 
 if Facter.value(:has_bootfs)
-  facts = [ 'size','available']
+  facts = %w[size available]
 
   facts.each do |fact|
     Facter.add("bootfs_#{fact}") do
