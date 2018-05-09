@@ -1,4 +1,7 @@
 Facter.add(:has_bootfs) do
+  confine :kernel do |value|
+    value != 'windows'
+  end
   setcode do
     if Facter.value(:mountpoints)['/boot'].nil?
       false
